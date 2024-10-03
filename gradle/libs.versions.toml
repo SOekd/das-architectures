@@ -1,0 +1,13 @@
+[versions]
+shadow = "8.1.0"
+spring-boot = "3.3.4"
+spring-dependency = "1.1.6"
+azure-messaging-servicebus = "7.13.3"
+azure-identity = "1.8.2"
+
+[libraries]
+shadow = { module = "com.github.johnrengelman:shadow", version.ref = "shadow" }
+spring-boot = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "spring-boot" }
+spring-dependency = { module = "io.spring.dependency-management:io.spring.dependency-management.gradle.plugin", version.ref = "spring-dependency" }
+azure-messaging-servicebus = { module = "com.azure:azure-messaging-servicebus", version.ref = "azure-messaging-servicebus" }
+azure-identity = { module = "com.azure:azure-identity", version.ref = "azure-identity" }
